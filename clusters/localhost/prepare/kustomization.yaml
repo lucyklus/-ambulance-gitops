@@ -4,6 +4,7 @@ kind: Kustomization
 resources:
 - namespace.yaml
 - ../../../infrastructure/ufe-controller
+- ../../../infrastructure/fluxcd
 
 patches:
 - path: patches/ufe-controller.service.yaml
