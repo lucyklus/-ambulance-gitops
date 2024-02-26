@@ -3,7 +3,7 @@ kind: Deployment
 metadata:
   name: mandova-ambulance-ufe-deployment
 spec:
-  replicas: 2
+  replicas: 1
   selector:
     matchLabels:
         pod: mandova-ambulance-ufe-label
