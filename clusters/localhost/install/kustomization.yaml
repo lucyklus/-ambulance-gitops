@@ -8,3 +8,6 @@ commonLabels:
 
 resources:
 - ../../../apps/mandova-ambulance-ufe
+
+components:
+ - ../../../components/version-developers
