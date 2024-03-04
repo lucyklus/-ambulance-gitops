@@ -9,6 +9,11 @@ spec:
       path: mandova-ambulance-wl
       title: Zoznam čakajúcich mandova
       details: Spravuje zoznam pacientov čakajúcich na vyšetrenie v ambulancii
+      attributes:
+        - name: api-base
+          value: http://localhost:5001/api
+        - name: ambulance-id
+          value: bobulova
   preload: false
   proxy: true
   hash-suffix: v1alpha1
