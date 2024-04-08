@@ -8,6 +8,11 @@ commonLabels:
 
 resources:
 - ../../../apps/mandova-ambulance-ufe
+- ../../../apps/mandova-ambulance-webapi
 
 components:
  - ../../../components/version-developers
+ - https://github.com/lucyklus/ambulance-webapi//deployments/kustomize/components/mongodb
+
+patches:
+ - path: patches/ambulance-webapi.service.yaml
