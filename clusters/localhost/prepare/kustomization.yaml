@@ -5,6 +5,7 @@ resources:
 - namespace.yaml
 - ../../../infrastructure/ufe-controller
 - ../../../infrastructure/fluxcd
+- ../../../infrastructure/envoy-gateway
 
 patches:
 - path: patches/ufe-controller.service.yaml
