@@ -3,7 +3,10 @@ kind: Component
 images:
 - name: lucyklus/ambulance-ufe
   newName: lucyklus/ambulance-ufe
-  newTag: 1.0.1
+  newTag: 1.1.0
+- name: lucyklus/ambulance-wl-webapi
+  newName: lucyklus/ambulance-wl-webapi
+  newTag: 1.1.0
 
 replacements:
  - targets:
