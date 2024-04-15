@@ -9,6 +9,7 @@ commonLabels:
 resources:
 - ../../../apps/mandova-ambulance-ufe
 - ../../../apps/mandova-ambulance-webapi
+- ../../../apps/mongo-express
 
 components:
  - ../../../components/version-developers
