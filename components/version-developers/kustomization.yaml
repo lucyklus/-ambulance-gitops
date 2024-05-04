@@ -10,3 +10,9 @@ images:
 - name: lucyklus/ambulance-wl-webapi
   newName: lucyklus/ambulance-wl-webapi # {"$imagepolicy":  "wac-hospital:ambulance-webapi:name"}
   newTag: main.20240408.1245 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
+- name: hozza/reserver-ufe
+  newName: hozza/reserver-ufe # {"$imagepolicy":  "wac-hospital:reserver-ufe:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:reserver-ufe:tag"}
+- name: hozza/reserver-webapi
+  newName: hozza/reserver-webapi # {"$imagepolicy":  "wac-hospital:reserver-webapi:name"}
+  newTag: main # {"$imagepolicy": "wac-hospital:reserver-webapi:tag"}

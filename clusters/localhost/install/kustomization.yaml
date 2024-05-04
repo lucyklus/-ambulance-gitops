@@ -7,13 +7,16 @@ commonLabels:
   app.kubernetes.io/part-of: wac-hospital
 
 resources:
-- ../../../apps/mandova-ambulance-ufe
-- ../../../apps/mandova-ambulance-webapi
-- ../../../apps/mongo-express
+  - ../../../apps/mandova-ambulance-ufe
+  - ../../../apps/mandova-ambulance-webapi
+  - ../../../apps/reserver-ufe
+  - ../../../apps/reserver-webapi
+  - ../../../apps/mongo-express 
 
 components:
- - ../../../components/version-developers
- - https://github.com/lucyklus/ambulance-webapi//deployments/kustomize/components/mongodb
+  - ../../../components/version-developers
+  - https://github.com/lucyklus/ambulance-webapi//deployments/kustomize/components/mongodb
 
 patches:
- - path: patches/ambulance-webapi.service.yaml
+  - path: patches/ambulance-webapi.service.yaml
+  - path: patches/reserver-webapi.service.yaml

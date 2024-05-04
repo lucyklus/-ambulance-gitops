@@ -7,14 +7,18 @@ commonLabels:
 namespace: wac-hospital
 
 resources:
- - prepare.kustomization.yaml
- - cd.kustomization.yaml
- - install.kustomization.yaml
- - git-repository.yaml
- - ambulance-ufe.image-repository.yaml
- - ambulance-ufe.image-policy.yaml
- - ufe-controller.image-repository.yaml
- - ufe-controller.image-policy.yaml
- - image-update-automation.yaml
- - ambulance-webapi.image-repository.yaml
- - ambulance-webapi.image-policy.yaml
+  - prepare.kustomization.yaml
+  - cd.kustomization.yaml
+  - install.kustomization.yaml
+  - git-repository.yaml
+  - ambulance-ufe.image-repository.yaml
+  - ambulance-ufe.image-policy.yaml
+  - ambulance-webapi.image-repository.yaml
+  - ambulance-webapi.image-policy.yaml
+  - reserver-ufe.image-repository.yaml
+  - reserver-ufe.image-policy.yaml
+  - reserver-webapi.image-repository.yaml
+  - reserver-webapi.image-policy.yaml
+  - ufe-controller.image-repository.yaml
+  - ufe-controller.image-policy.yaml
+  - image-update-automation.yaml
