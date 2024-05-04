@@ -12,7 +12,7 @@ images:
   newTag: main.20240408.1245 # {"$imagepolicy": "wac-hospital:ambulance-webapi:tag"}
 - name: hozza/reserver-ufe
   newName: hozza/reserver-ufe # {"$imagepolicy":  "wac-hospital:reserver-ufe:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:reserver-ufe:tag"}
+  newTag: main.20240501.1344 # {"$imagepolicy": "wac-hospital:reserver-ufe:tag"}
 - name: hozza/reserver-webapi
   newName: hozza/reserver-webapi # {"$imagepolicy":  "wac-hospital:reserver-webapi:name"}
-  newTag: main # {"$imagepolicy": "wac-hospital:reserver-webapi:tag"}
+  newTag: main.20240501.1502 # {"$imagepolicy": "wac-hospital:reserver-webapi:tag"}
